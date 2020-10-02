@@ -9925,4 +9925,12 @@ h1 {
   border-radius: 0;
 }
 
+h5 {
+  color: lightgrey;
+}
+
+.card-title2 {
+  color: aliceblue;
+}
+
 /*# sourceMappingURL=custom.css.map */

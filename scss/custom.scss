@@ -1,7 +1,7 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 $body-bg: #590212;
-$body-color: white;
+$body-color: #590212;
 $primary: grey;
 $font-family-base: Arial;
 
@@ -16,13 +16,27 @@ body {
 
 .jumbotron {
   border-radius: 0;
-  color: #260303;
+  color: #590212;
+  background-color: #8c031c;
 }
 
 p {
-  color: darkgray;
+  color: lightgray;
 }
 
 h1 {
-  color: darkgrey;
+  color: lightgrey;
+}
+
+.bg-red {
+  background-color: #d90b42;
+}
+.card {
+  background-color: #260303;
+  border-radius: 0;
+}
+
+.card-img,
+.card-img-top {
+  border-radius: 0;
 }

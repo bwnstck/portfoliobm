@@ -3,7 +3,7 @@
 $body-bg: #590212;
 $body-color: #590212;
 $primary: grey;
-$font-family-base: Arial;
+$font-family-base: roboto;
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -47,4 +47,12 @@ h5 {
 
 .card-title2 {
   color: aliceblue;
+}
+
+.navbar {
+  position: fixed;
+}
+
+#contact {
+  font-: 10px !important;
 }

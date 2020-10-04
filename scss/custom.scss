@@ -9,9 +9,22 @@ $font-family-base: roboto;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Add you custom CSS
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 20px;
+}
+
+a {
+  color: lightgray;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d90b42;
 }
 
 .jumbotron {

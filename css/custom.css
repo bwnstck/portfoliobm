@@ -55,7 +55,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: roboto;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5510,7 +5510,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Arial;
+  font-family: roboto;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5612,7 +5612,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: Arial;
+  font-family: roboto;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9893,8 +9893,22 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 20px;
+}
+
+a {
+  color: lightgray;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #d90b42;
 }
 
 .jumbotron {
@@ -9931,6 +9945,14 @@ h5 {
 
 .card-title2 {
   color: aliceblue;
+}
+
+.navbar {
+  position: fixed;
+}
+
+#contact {
+  font-: 10px !important;
 }
 
 /*# sourceMappingURL=custom.css.map */
